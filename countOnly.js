@@ -10,7 +10,7 @@ const assertEqual = function (actual, expected) {
 const countOnly = function (allItems, itemsToCount) {
   const results = {};
 
-  // We will loop through the keys of allItems, item will now store all the keys of allItems
+  // We will loop through the values of allItems stored in its key, item will now store all the keys of allItems
   for (const item of allItems) {
   // We will check if itemsToCount includes the items in allItems
     if (itemsToCount[item]) {
