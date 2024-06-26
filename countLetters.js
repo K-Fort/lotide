@@ -7,11 +7,10 @@ const assertEqual = function (actual, expected) {
 };
 
 const countLetters = function(sentence) {
-  result = {};
+  let result = {};
 
   for (const letter of sentence) {
-    let result = {}
-      for (const letter of sentence) {
+           
         if (letter === ' ') {
           continue;
         }
@@ -20,13 +19,12 @@ const countLetters = function(sentence) {
           result[letter] = 0;
           
         } result[letter]++
-      }
-      return result;
-        }
+        
+        } return result;    
   }
 
 
 
-
-console.log(countLetters("LHL"))
-console.log(countLetters("Lighthouse Labs"))
+  const result1 = countLetters('LHL');
+  assertEqual(result1['L'], 2);
+  assertEqual(result1['H'], 1);
