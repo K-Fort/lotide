@@ -1,3 +1,5 @@
+
+// This function compares two objects to see if they have the same keys and values
 const eqObjects = function (object1, object2) {
   const keys1 = Object.keys(object1);
   const keys2 = Object.keys(object2);
@@ -21,6 +23,7 @@ const eqObjects = function (object1, object2) {
   return true;
 };
 
+// This function asserts if two objects are equal and logs the result
 const assertObjectsEqual = function (actual, expected) {
   const inspect = require("util").inspect;
 
