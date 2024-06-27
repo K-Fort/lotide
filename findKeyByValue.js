@@ -20,9 +20,7 @@ const findKeyByValue = function(object, value) {
    
     if (object[key] === value) {
       return key;
-    } else if (object[key] !== value) {
-      return undefined;
-    }
+    } 
   }
 }
 
