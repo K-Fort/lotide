@@ -28,3 +28,5 @@ const countLetters = function(sentence) {
   const result1 = countLetters('LHL');
   assertEqual(result1['L'], 2);
   assertEqual(result1['H'], 1);
+
+  module.exports = countLetters

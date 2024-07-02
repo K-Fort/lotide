@@ -54,3 +54,5 @@ assertEqual(result, undefined);
 result = findKey({}, (x) => x.stars === 2);
 assertEqual(result, undefined);
 
+
+module.exports = findKey

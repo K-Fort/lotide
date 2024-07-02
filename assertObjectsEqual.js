@@ -45,3 +45,5 @@ const bob = { hair: "short", hairColor: "brown", children: "0" };
 assertObjectsEqual(sally, susanne);
 assertObjectsEqual(sally, bob);
 assertObjectsEqual(sally, jeremy);
+
+module.exports = assertObjectsEqual
